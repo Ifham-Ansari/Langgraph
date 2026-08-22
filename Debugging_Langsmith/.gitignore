@@ -1,0 +1,23 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter runtime files
+.ipynb_checkpoints/
+
+# LangGraph local runtime output
+.langgraph_api/
+
+# Local tooling and OS files
+.vscode/
+.DS_Store
+Thumbs.db
